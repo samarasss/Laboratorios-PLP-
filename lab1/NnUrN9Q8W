@@ -1,0 +1,3 @@
+Usage:
+ dirlididi.py get <problem_key>
+ dirlididi.py submit <problem_key> <token> <filename>
