@@ -20,7 +20,6 @@ densidade(PAIS, DENSIDADE) :- territorio(PAIS, TER),
 maior_densidade(PAIS1, PAIS2, MAIOR) :- densidade(PAIS1, DENSIDADE1), densidade(PAIS2, DENSIDADE2), DENSIDADE1 >= DENSIDADE2, MAIOR = PAIS1.
 maior_densidade(PAIS1, PAIS2, MAIOR) :- densidade(PAIS1, DENSIDADE1), densidade(PAIS2, DENSIDADE2), DENSIDADE1 < DENSIDADE2, MAIOR = PAIS2.
 
-
 :- initialization main.
 main :-
     read(PAIS1),
